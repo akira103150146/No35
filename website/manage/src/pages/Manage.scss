@@ -1,0 +1,25 @@
+body {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.manage {
+    display: flex;
+    flex-direction: column;
+    .op {
+        color: #eee;
+        background-color: #303245;
+        border-radius: 12px;
+        border: 0;
+        outline: 0;
+        box-sizing: border-box;
+        padding: 4px 20px 4px 20px;
+        margin: 10px;
+    }
+    .op:active {
+        background-color: #40425c;
+    }
+}
